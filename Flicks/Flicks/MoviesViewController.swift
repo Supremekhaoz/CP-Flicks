@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AFNetworking
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
@@ -69,7 +70,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         let imageUrl = NSURL(string: baseUrl + posterUrl)
         
-        cell.posterView = 
+        cell.posterView.setImageWithURL(imageUrl!)
         
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
