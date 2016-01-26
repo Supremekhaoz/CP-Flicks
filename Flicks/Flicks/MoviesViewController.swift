@@ -20,7 +20,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-                
+        
         getMovies()
         
         let refreshControl = UIRefreshControl()
@@ -93,11 +93,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func refreshMovies(refreshControl: UIRefreshControl) {
         getMovies()
-        
         refreshControl.endRefreshing()
     }
     
-    @IBOutlet weak var searchTextChaned: UITableView!
     /*
     // MARK: - Navigation
 
