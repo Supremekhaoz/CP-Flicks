@@ -21,7 +21,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-                
+        
         getMovies()
         
         let refreshControl = UIRefreshControl()
