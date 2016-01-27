@@ -96,10 +96,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         refreshControl.endRefreshing()
     }
     
-<<<<<<< HEAD
-    /*
-=======
->>>>>>> Flicks_week2
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
