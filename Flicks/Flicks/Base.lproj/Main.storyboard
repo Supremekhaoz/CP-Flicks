@@ -64,6 +64,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+            <point key="canvasLocation" x="301" y="421"/>
+=======
             <point key="canvasLocation" x="1077" y="426"/>
         </scene>
         <!--Detail View Controller-->
@@ -132,6 +135,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBS-5I-FDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="668" y="426"/>
+>>>>>>> Flicks_week2
         </scene>
     </scenes>
 </document>
