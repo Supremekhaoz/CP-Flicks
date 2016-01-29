@@ -61,6 +61,12 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
         
+        cell.overviewLabel.sizeToFit()
+        
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor.grayColor()
+        cell.selectedBackgroundView = backgroundView
+        
         return cell
     }
     

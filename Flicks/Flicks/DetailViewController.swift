@@ -28,13 +28,17 @@ class DetailViewController: UIViewController {
         
         let overview = movie["overview"] as? String
         overviewLabel.text = overview
-       
+
+        overviewLabel.sizeToFit()
+        
         let baseUrl = "http://image.tmdb.org/t/p/w500"
 
         if let posterUrl = movie["poster_path"] as? String {
             let imageUrl = NSURL(string: baseUrl + posterUrl)
             posterView.setImageWithURL(imageUrl!)
         }
+        
+
         // Do any additional setup after loading the view.
     }
 
